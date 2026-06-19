@@ -136,6 +136,39 @@
     font-weight:700;
 
 }
+    .profile{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:8px;
+}
+
+.profile-pic{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #0b1f3a;
+}
+
+.title{
+    font-size:24px;
+    font-weight:800;
+    color:#0b1f3a;
+    white-space:nowrap;
+}
+
+@media (max-width:480px){
+    .profile-pic{
+        width:42px;
+        height:42px;
+    }
+
+    .title{
+        font-size:18px;
+    }
+}
   </style>
 </head>
 <body>
@@ -146,8 +179,9 @@ SUPREME COURT BAR ASSOCIATION
 
 <div class="logo">⚖️</div>
 
-<div class="title">
-ADVOCATE NIKHIL CHUGH
+<div class="profile">
+    <img src="Advocate-Author-Nikhil-Chugh.webp" alt="Advocate Nikhil Chugh" class="profile-pic">
+    <div class="title">ADVOCATE NIKHIL CHUGH</div>
 </div>
   
 <div class="subtitle">
